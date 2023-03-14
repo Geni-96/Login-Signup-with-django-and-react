@@ -22,4 +22,6 @@ urlpatterns = [
     path('token/', jwt_views.TokenObtainPairView.as_view(), name ='token_obtain_pair'),
     path('token/refresh/', jwt_views.TokenRefreshView.as_view(), name ='token_refresh'),
     path('', include('authentication.urls')),
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
+    path('authentication/', include('authentication.urls')),
 ]
