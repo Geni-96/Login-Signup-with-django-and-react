@@ -1,4 +1,4 @@
-# django-oauth
+# Login and Sign up pages with React frontend and Django-oauth authentication
 
 This sample project has django autherization for user login and registration with django-simple-jwt and oauth-toolkit in django-rest-framework and it's integration with react .
 
